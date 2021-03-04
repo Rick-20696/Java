@@ -1,4 +1,3 @@
-Exercícios_Cotuca
 bin
 .settings
 .classpath
@@ -7,3 +6,4 @@ bin
 .idea
 build
 Java 13.iml
+/.metadata/
