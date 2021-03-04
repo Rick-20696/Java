@@ -1,9 +1,8 @@
-Exercícios_Cotuca
-bin
+﻿bin
 .settings
 .classpath
 .project
 .metadata
 .idea
 build
-Java 13.iml
+*.iml
