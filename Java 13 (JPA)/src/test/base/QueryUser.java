@@ -16,7 +16,7 @@ public class QueryUser {
 		User user = em.find(User.class, 1L);
 		System.out.println(user.getName());				
 		
-		emf.close();
 		em.clear();
+		emf.close();
 	}
 }

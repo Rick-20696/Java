@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence/orm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence/orm http://xmlns.jcp.org/xml/ns/persistence/orm_2_2.xsd">
+
+	<!-- A archive that contains all named-queries -->	
+	<named-query name="noteFilmsBiggerThan">
+		<query>
+			select distinct f from Film f
+			join fetch f.actors
+			where f.note > :note
+		</query>
+	</named-query>
+
+</entity-mappings>

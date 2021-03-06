@@ -23,7 +23,7 @@ public class QueryUsers {
 			System.out.println(u.getId() + " " + u.getName() + " " + u.getEmail());
 		}
 		
-		emf.close();
 		em.clear();
+		emf.close();
 	}
 }

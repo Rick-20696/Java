@@ -5,7 +5,4 @@ bin
 .metadata
 .idea
 build
-Java 13.iml
-/.metadata/
-/.metadata/
-/.metadata/
+*.iml
